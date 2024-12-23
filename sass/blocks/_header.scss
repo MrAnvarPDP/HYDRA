@@ -1,0 +1,79 @@
+.header {
+  padding: 50px 0;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  cursor: pointer;
+}
+
+.imgs{
+    display: flex;
+    gap: 15px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 42px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.burger__btn {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+.header__link {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.63px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+}
+
+.btn__hydra {
+  width: 154px;
+  height: 48px;
+  gap: 0px;
+  border-radius: 40px;
+  opacity: 0px;
+  border: 2px solid #ffffff;
+  padding-top: 17px;
+  padding-bottom: 16px;
+  padding-left: 34px;
+  padding-right: 34px;
+  margin-left: 100px;
+}
+.btn__hydra-2 {
+  width: 154px;
+  height: 48px;
+  gap: 0px;
+  border-radius: 40px;
+  opacity: 0px;
+  color: #343045;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  padding-top: 17px;
+  padding-bottom: 16px;
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+@media only screen and (max-width: 480px) {
+  .header__menu {
+    display: none;
+  }
+  .imgs {
+    display: flex;
+  }
+  .burger__btn {
+    display: block;
+  }
+}
